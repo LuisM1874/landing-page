@@ -14,16 +14,27 @@
     width: 300px;
     text-align: left;
     font-size: 15px;
-    position: relative;
+    position:relative;
     left:75%;
+    
+  }
+
+  img {
+    position: absolute;
+    left: 65%;
+    top: 15%;
   }
 
   h2 {
     background-color: #b7a684;
     width: 60%;
-    height: 
   }
 
+  p {
+    background-color: #b7a684;
+    width: 60%;
+    height: 300px;
+  }
   
 
   .contact-info {
@@ -41,6 +52,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .footer {
