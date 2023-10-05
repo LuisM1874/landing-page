@@ -22,7 +22,7 @@
   img {
     position: absolute;
     left: 65%;
-    top: 15%;
+    top: 15%;  
   }
 
   h2 {
@@ -62,5 +62,8 @@
     height: 50px;
   }
  
- 
- 
+  @media only screen and (min-width: 1142px) {
+    #fadeshow1 {
+        display: none;
+    }
+  }
