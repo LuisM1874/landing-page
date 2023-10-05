@@ -1,0 +1,34 @@
+#test {
+    color:black;
+   text-align: center;
+   background-color: #b7a684;
+   
+}
+#collapsible {
+    background-color: #b7a684;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 300px;
+    text-align: left;
+    font-size: 15px;
+    position: relative;
+    left:75%;
+    
+  }
+  .contact-info {
+    color: black;
+    display: block;
+    background-color: #b7a684;
+    font-weight:500;
+    width: 336px;
+    position: relative;
+    left:75%;
+
+  }
+  #page {
+    background-color: #fffdd0;
+  }
+a {
+  text-decoration: none;
+}
