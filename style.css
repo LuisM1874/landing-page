@@ -1,10 +1,12 @@
-#test {
-    color:black;
-   text-align: center;
-   background-color: #b7a684;
-   
-}
-#collapsible {
+ #page{
+  background-color: #FFFDD0;
+ }
+ #title {
+  background-color: #b7a684;
+  text-align: center;
+  height: 75px;
+ }
+ #collapsible {
     background-color: #b7a684;
     color: #444;
     cursor: pointer;
@@ -14,8 +16,16 @@
     font-size: 15px;
     position: relative;
     left:75%;
-    
   }
+
+  h2 {
+    background-color: #b7a684;
+    width: 60%;
+    height: 
+  }
+
+  
+
   .contact-info {
     color: black;
     display: block;
@@ -24,11 +34,21 @@
     width: 336px;
     position: relative;
     left:75%;
+  
+  }
+  
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
+  .footer {
+    background-color: #b7a684;
+    padding: 10px;
+    margin-top: auto;
+    height: 50px;
   }
-  #page {
-    background-color: #fffdd0;
-  }
-a {
-  text-decoration: none;
-}
+ 
+ 
+ 
